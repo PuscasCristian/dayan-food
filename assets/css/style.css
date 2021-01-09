@@ -7572,8 +7572,56 @@ textarea.form-control {
   object-fit: contain;
 
 }
-.fb-livechat {
-  z-index: 9999 !important;
+.messenger-wrapper {
+  position: absolute;
+  z-index: 9999;
+  bottom: 25px;
+}
+a.fb-message-blue {
+  z-index: 9999;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0084ff;
+  border: 1px solid #0084ff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 35rem;
+  left: 5rem;
+  border-radius: 50px;
+  outline: none;
+  -webkit-transition: all ease .15s;
+  -o-transition: all ease .15s;
+  -moz-transition: all ease .15s;
+  transition: all ease .15s;
+}
+a.fb-message-blue:hover {
+  background-color: #2093ff;
+  border: 1px solid #2093ff;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  /* transform: scale(1.15); */ /* uncomment to add zoom effect */
+}
+a.fb-message-blue:focus {
+  background-color: #0084ff;
+  border: 1px solid #0084ff;
+  -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
 }
 
+.fb-message-blue i {
+  background-image: url('/assets/images/favicon/hjwozo7.png');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
 /* Custom End */
