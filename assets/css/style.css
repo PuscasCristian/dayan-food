@@ -7572,6 +7572,8 @@ textarea.form-control {
   object-fit: contain;
 
 }
-
+.fb-livechat {
+  z-index: 9999 !important;
+}
 
 /* Custom End */
