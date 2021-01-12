@@ -1361,7 +1361,9 @@ h6 {
 .page-title-layout7 .breadcrumb {
   margin-top: 0;
 }
-
+.page-title-layout8 {
+  height: 80vh;
+}
 /* Medium Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title {
