@@ -1361,9 +1361,7 @@ h6 {
 .page-title-layout7 .breadcrumb {
   margin-top: 0;
 }
-.page-title-layout8 {
-  height: 60vh;
-}
+
 /* Medium Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title {
@@ -3345,7 +3343,11 @@ textarea.form-control {
 
 .text-banner-layout2 {
   padding-top: 240px;
+  min-height: 60vh;
   padding-bottom: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-banner-layout2 .divider-shape {
@@ -7626,4 +7628,5 @@ a.fb-message-blue:focus {
   height: 30px;
   width: 30px;
 }
+
 /* Custom End */
